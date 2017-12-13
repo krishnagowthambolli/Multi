@@ -2,7 +2,7 @@
 properties([
     [$class: 'GithubProjectProperty',
     displayName: '',
-    projectUrlStr: '/'],
+    projectUrlStr: 'https://github.com/krishnagowthambolli/Multi.git/'],
     pipelineTriggers([githubPush()])])
 
 pipeline {
